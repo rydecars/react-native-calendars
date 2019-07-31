@@ -127,7 +127,6 @@ class Day extends Component {
     ) {
       // Filter out dots so that we we process only those items which have key and color property
       const validDots = marking.dots.filter(d => d && d.color);
-      //console.log('validDots ',validDots);
       if (validDots.length > 0) {
         return validDots.map((dot, index) => {
           return (
